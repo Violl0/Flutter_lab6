@@ -1,17 +1,43 @@
-# my_app_katorzhin
 
-A new Flutter project.
+# Лабораторная работа №4-5
 
-## Getting Started
+**ФИО:** Каторжин Максим Вячеславович  
+**Группа:** ИСП-241  
+**Дата:** 12.10.2026
 
-This project is a starting point for a Flutter application.
+## Что изучил
 
-A few resources to get you started if this is your first Flutter project:
+- Как выносить виджеты в отдельные файлы
+- Что такое StatelessWidget и StatefulWidget
+- Как работает setState
+- Как добавлять картинки через assets
+- Как делать градиент и кнопки
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Скриншот
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Скрин](assets/images/1.png)
+
+## Как запустить
+
+```
+flutter pub get
+flutter run -d chrome
+```
+
+## Ответы на вопросы
+
+**1. Зачем выносить виджеты в отдельные файлы?**
+
+Чтобы код был понятнее.
+
+**2. Что такое BuildContext?**
+
+Информация о месте виджета в дереве.
+
+**3. Чем StatelessWidget отличается от StatefulWidget?**
+
+Stateless не меняется, Stateful меняется через setState.
+
+**4. Почему Random() создаётся на уровне файла?**
+
+Чтобы не создавать его каждый раз.
